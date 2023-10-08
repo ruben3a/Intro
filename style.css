@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    color: white;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+.me {
+    border-radius: 50%;
+    height: 250px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    background-color: #ADC4CE;
+    border-radius: 20px;
+    padding: 50px 40px;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+}
+
+.firstimg {
+    height: 150px;
+}
+
+#description {
+    background-color: #ADC4CE;
+    width: 100%;
+}
+
+.second {
+    position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px;
+text-align: center;
+}
+
+.exp {
+    display: flex;
+    width: 60%;
+    text-align: left;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 30px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.exp1 {
+    width: 45%;
+}
+
+.info {
+    background-color: #ADC4CE;
+}
+
+.foot {
+    display: flex;
+    width: 45%;
+    text-align: left;
+    justify-content: space-between;
+    padding: 30px;
+}
